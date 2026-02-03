@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🌸 B.D.S Memorial Orchid Global Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* ===== GLOBAL ===== */
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f7f4;
+}
+section{
+  background:#fff;
+  margin:25px;
+  padding:25px;
+  border-radius:12px;
+}
+h2{
+  color:#2e7d32;
+  margin-bottom:15px;
+}
+
+/* ===== HEADER ===== */
+header{
+  background:#2e7d32;
+  color:#fff;
+  padding:25px;
+  text-align:center;
+}
+header button{
+  margin-top:10px;
+  background:#ffc107;
+  border:none;
+  padding:8px 14px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* ===== NAV ===== */
+nav{
+  background:#1b5e20;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  padding:12px;
+}
+nav a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* ===== CLASSES ===== */
+.classes{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:10px;
+}
+.class-box{
+  background:#e8f5e9;
+  padding:12px;
+  text-align:center;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+/* ===== ADMISSION ===== */
+.admission{
+  background:#e8f5e9;
+  text-align:center;
+  padding:30px;
+  border-radius:12px;
+}
+.admission strong{
+  font-size:18px;
+}
+
+/* ===== MANAGEMENT ===== */
+.management{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.management img{
+  width:140px;
+  border-radius:10px;
+}
+
+/* ===== GALLERY SLIDER ===== */
+.slider{
+  position:relative;
+  overflow:hidden;
+}
+.slides{
+  display:flex;
+  animation:slide 18s infinite;
+}
+.slides img{
+  width:100%;
+  max-height:420px;
+  object-fit:cover;
+}
+@keyframes slide{
+  0%{transform:translateX(0)}
+  20%{transform:translateX(0)}
+  25%{transform:translateX(-100%)}
+  45%{transform:translateX(-100%)}
+  50%{transform:translateX(-200%)}
+  70%{transform:translateX(-200%)}
+  75%{transform:translateX(-300%)}
+  95%{transform:translateX(-300%)}
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#1f2225;
+  color:#ddd;
+}
+.footer-container{
+  display:grid;
+  grid-template-columns:1.3fr 1fr 1.3fr;
+  gap:30px;
+  padding:40px;
+}
+.footer-about img{
+  width:60px;
+}
+.footer-links a{
+  display:block;
+  color:#ccc;
+  text-decoration:none;
+  margin:6px 0;
+}
+.footer-links a:hover{color:#4caf50}
+.footer-contact iframe{
+  width:100%;
+  height:180px;
+  border:none;
+  border-radius:8px;
+}
+.footer-bottom{
+  background:#151718;
+  text-align:center;
+  padding:12px;
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌸 B.D.S Memorial Orchid Global Academy</h1>
+  <p>Shaping Future with Quality Education</p>
+  <button>हिंदी / English</button>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#management">Management</a>
+  <a href="#teachers">Teachers</a>
+  <a href="#admission">Admission</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About School</h2>
+  <p>
+    B.D.S Memorial Orchid Global Academy is committed to quality education,
+    discipline and overall development of students from Class I to VIII.
+  </p>
+</section>
+
+<section>
+  <h2>Classes Offered</h2>
+  <div class="classes">
+    <div class="class-box">Class I</div>
+    <div class="class-box">Class II</div>
+    <div class="class-box">Class III</div>
+    <div class="class-box">Class IV</div>
+    <div class="class-box">Class V</div>
+    <div class="class-box">Class VI</div>
+    <div class="class-box">Class VII</div>
+    <div class="class-box">Class VIII</div>
+  </div>
+</section>
+
+<section id="admission" class="admission">
+  <h2>Admission Open</h2>
+  <p>Admissions open for current academic session 2026-2027</p>
+  <strong>📞 +91 99972 82003</strong>
+</section>
+
+<section id="management">
+  <h2>School Management</h2>
+  <div class="management">
+    <img src="images/director.jpeg">
+    <div>
+      <h3>Director</h3>
+      <p>Rashmi Sharma</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>School Gallery</h2>
+  <div class="slider">
+    <div class="slides">
+      <img src="images/gallery1.jpeg">
+      <img src="images/gallery2.jpeg">
+      <img src="images/gallery3.jpeg">
+      <img src="images/gallery4.jpeg">
+      <img src="images/gallery5.jpeg">
+      <img src="images/gallery6.jpeg">
+      <img src="images/gallery7.jpeg">
+      <img src="images/gallery8.jpeg">
+      <img src="images/gallery9.jpeg">
+      <img src="images/gallery10.jpeg">
+      <img src="images/gallery11.jpeg">
+      <img src="images/gallery12.jpeg">
+      <img src="images/gallery13.jpeg">
+      <img src="images/gallery14.jpeg">
+      <img src="images/gallery15.jpeg">
+      <img src="images/gallery16.jpeg">
+      <img src="images/gallery17.jpeg">
+      <img src="images/gallery18.jpeg">
+      <img src="images/gallery19.jpeg">
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    RG43+79X, MDR 134W, Bidhuna, Uttar Pradesh 206243<br>
+    📞 +91 99972 82003<br>
+    ✉️ info@orchidglobalacademy.com
+  </p>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="images/director.jpg">
+      <p>
+        B.D.S Memorial Orchid Global Academy focuses on discipline,
+        education and student success.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="#about">About</a>
+      <a href="#management">Management</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Location</h3>
+      <iframe src="https://www.google.com/maps?q=Bidhuna%20Uttar%20Pradesh&output=embed"></iframe>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 B.D.S Memorial Orchid Global Academy | All Rights Reserved
+  </div>
+</footer>
+
+</body>
+</html>
